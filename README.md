@@ -24,7 +24,7 @@
    - paragraphe: ok
    - des images:ok
    - Section 2: non
-   - 
+   
 
 
    - footer
