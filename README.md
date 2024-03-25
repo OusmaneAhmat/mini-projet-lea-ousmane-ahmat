@@ -15,12 +15,13 @@
    # Réalisation de mon html
    - navigation :ok
    - header :ok
-   - main : en cours
+   - main : 
+   - des images
+   - titre: ok
    - paragraphe: ok
-   -footer
+   - footer
+   - nos reseaux sociaux
 
-
-# Titre du projet
 
 # Les grandes Etapes de mon projet: 
 ### Accueil
