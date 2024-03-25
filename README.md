@@ -15,7 +15,7 @@
   - témoignages
   - évaluer leurs compétences linguistiques: si possible
 ### INSCRIPTION
-  -les modalités d'inscription, les dates de début des sessions
+  - les modalités d'inscription, les dates de début des sessions
   - un formulaire d'inscription en ligne
 
 ### CONTACT
