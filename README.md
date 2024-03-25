@@ -43,23 +43,24 @@
   -  Des images de personnes parlant différentes langues pour représenter la diversité linguistique de votre centre. ou video
 # Section 2: LES LANGUES ENSEIGNEES:
   - Présentez les différents cours et programmes disponibles
-  - Des images représentant les pays dont les langues sont enseignées, par exemple des monuments célèbres ou des paysages emblématiques.
+  - Des images représentant les pays dont les langues sont enseignées, par exemple des monuments célèbres ou des paysages emblématiques: ok
   - les tarifs des cours
   - Des photos des manuels et des ressources pédagogiques
   - horaires,  les niveaux
+  - Condition d'inscription
   - témoignages
   - évaluer leurs compétences linguistiques: si possible
 ### INSCRIPTION
-  - les modalités d'inscription, les dates de début des sessions
+  - les modalités d'inscription, 
   - Dates de début des sessions
-  - un formulaire d'inscription en ligne
+  - un formulaire d'inscription en ligne : ok
   - images de personnes utilisant des ordinateurs ou des tablettes pour remplir des formulaires d'inscription en ligne.
 
 ### CONTACT
   - les coordonnées de votre centre d'enseignement des langues
   - l'adresse physique
   - le numéro de téléphone, l'adresse e-mail,
-  - qu'un formulaire de contact
+  - qu'un formulaire de contact : ok
   - Une photo de votre équipe d'accueil 
 
 
