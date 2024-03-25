@@ -1,5 +1,25 @@
 # mini-projet-lea-ousmane-ahmat
 
+## creation de mon projet
+
+  ### Les Etapes de mon projet
+   - creation d'un dossier au nom du projet: ok
+   - créé un depot distant sur Github: ok
+   - creation du fichier README: ok
+   - cration du fichier html :ok 
+   - creation du fichier css :ok
+   - lier les deux fichiers: ok
+   - creation du fichier contact.html et inscription.html : ok
+   - creation de navigation entre contact.html et inscription.html : ok
+   - creation du fichier stye/images : ok
+   # Réalisation de mon html
+   - navigation :ok
+   - header :ok
+   - main : en cours
+   - paragraphe: ok
+   -footer
+
+
 # Titre du projet
 
 # Les grandes Etapes de mon projet: 
@@ -9,7 +29,7 @@
   - informations sur les enseignants: qualifications et leur expérience.
   - Une photo de l'équipe enseignante
   -  l'ambiance des cours et des activités proposées.
-  -  Une image représentant une salle de classe animée et dynamique, avec des étudiants et des enseignants interagissant.
+  -  Une image représentant une salle de classe animée et dynamique, avec des étudiants et des enseignants interagissant. 
   -  Des images de personnes parlant différentes langues pour représenter la diversité linguistique de votre centre. ou video
 # Section 2: LES LANGUES ENSEIGNEES:
   - Présentez les différents cours et programmes disponibles
