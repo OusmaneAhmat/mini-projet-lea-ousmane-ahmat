@@ -19,7 +19,7 @@
    - header :ok
 
    - main : 
-   - section 1
+   - section 1 : ok
    - titre: ok
    - paragraphe: ok
    - des images:ok
