@@ -11,16 +11,25 @@
    - lier les deux fichiers: ok
    - creation du fichier contact.html et inscription.html : ok
    - creation de navigation entre contact.html et inscription.html : ok
-   - creation du fichier stye/images : ok
+   - creation du dossier stye: ok
+   - creation du dossier images: ok 
+
    # Réalisation de mon html
    - navigation :ok
    - header :ok
+
    - main : 
-   - des images
+   - section 1
    - titre: ok
    - paragraphe: ok
+   - des images:ok
+   - Section 2: non
+   - 
+
+
    - footer
-   - nos reseaux sociaux
+   - des liens: si possible : non
+   - nos reseaux sociaux :non
 
 
 # Les grandes Etapes de mon projet: 
