@@ -57,8 +57,12 @@
   - Condition d'inscription : ok
 
 ### CONTACT
-  - les coordonnées de votre centre d'enseignement des langue
+  - les coordonnées de votre centre d'enseignement des langue: non
   - qu'un formulaire de contact : ok
-  - Une photo de votre équipe d'accueil 
+  - Une photo de votre équipe d'accueil : non
+### SUIVI DU PROJET
+- mettre des images au bon endroit
+- faire le style CSS
+- 
 
 
