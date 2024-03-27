@@ -1,0 +1,45 @@
+/* style pour la page incription */
+.navigation{
+        background-color:#99ff7a;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 35px;
+        font-weight: 800;
+        font-family: 'Times New Roman', Times, serif;
+        color: white;
+        font-size: 30px;
+    }.navigation :hover {
+        color: rgb(206, 21, 21);
+    }
+h1, h2, div, h3, p{
+        text-align: center; 
+        font-size: 22px;
+}
+.condition ul {
+list-style-position: inside; 
+text-align: center; 
+}
+/* Style pour la page contact */
+.navigation{
+    background-color:#99ff7a;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 35px;
+    font-weight: 800;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 30px;
+}
+.navigation :hover {
+    color: white;
+}
+h1, div{
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+
+

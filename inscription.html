@@ -3,112 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="stylesheet" href="styles/style.css"> -->
+    <link rel="stylesheet" href="styles/style.css">
     <title>inscription</title>
-    <style>
-
-
-
-        .navigation{
-        background-color:#99ff7a;
-            display: flex;
-            flex-direction: row;
-            justify-content: space-around;
-            padding: 35px;
-            font-weight: 800;
-            font-family: 'Times New Roman', Times, serif;
-            color: white;
-            font-size: 30px;
-        }
-        .navigation :hover {
-            color: rgb(206, 21, 21);
-        }
-  
-   
-      
-    
-    h1, h2, div, h3, p{
-        text-align: center; 
-      
-            font-size: 22px;
-    }
-
-
-    .condition ul {
-    list-style-position: inside; 
-    text-align: center; 
-}
-
-    
-</style>
 </head>
 <body>
     <main>
-     <header>
-        <div class="navigation">
-            <nav><a href="accueil.html">ACCUEIL</a></nav>
-            <nav><a href="contact.html">CONTACT</a></nav>
-            <nav><a href="inscription.html">INSCRIPTION</a></nav>
-        </div>
-    </header>
+        <header>
+            <div class="navigation">
+                <nav><a href="index.html">ACCUEIL</a></nav>
+                <nav><a href="inscription.html">INSCRIPTION</a></nav>
+                <nav><a href="contact.html">CONTACT</a></nav>
+            </div>
+        </header>
    
-    <h1>Les Conditions d'inscription</h1>
-    <div class="condition">
-        <ul>
-            <li>Avoir au minimum l'age de 15 ans</li>
-            <li> Avoir une carte d'identité Nationale</li>
-            <li>Payer au moins la moitié de la somme d'inscription</li>
-            <li>Respecter le reglement interieur du centre</li>
-            <li>Engagement à l'apprentissage et à la participation</li>
-            <li>Les mineurs doient etre accompagner par un parent</li>
-        </ul>
-    </div>
-    <h2>Formulaire d'inscription </h2>
-    <form action="recuperation.php" method="POST">
-        <div>
-            <label for="nom">Nom*:</label>
-            <input type="text" name="nom" value="nom" required>
+        <h1>Les Conditions d'inscription</h1>
+        <div class="condition">
+            <ul>
+                <li>Avoir au minimum l'age de 15 ans</li>
+                <li> Avoir une carte d'identité Nationale</li>
+                <li>Payer au moins la moitié de la somme d'inscription</li>
+                <li>Respecter le reglement interieur du centre</li>
+                <li>Engagement à l'apprentissage et à la participation</li>
+                <li>Les mineurs doient etre accompagner par un parent</li>
+            </ul>
         </div>
-        <br>
-        <div>
-            <label for="prenom">prénom*:</label>
-            <input type="text" name="prenom" value="prenom" required>
-        </div>
-        <br>
-        <div>
-            <label for="Date de naissance">Date de Naissance * :</label>
-            <input type="date" id="Date de naissance"  required>
-        </div>
-        <br>
-        <div>
-            <label for="telephone">Téléphone</label>
-            <input type="tel" name="telephone" value="telephone" >
-        </div>
-        <br>
-        <div>
-            <label for="email"><strong>E-mail* :</strong></label>
-            <input type="email" name="email" value="email" required>
-        </div>
-        <br>
-        <div>
-            <label for="Niveau">Niveau</label>
-            <select name="objet" value="Niveau">
-                <option value="plus de musique">Level 1</option>
-                <option value="question">Level 2</option>
-                <option value="question">Level 3</option>
-                <option value="question">Level 4</option>
-                <option value="question">Level 5</option>
-                <option value="question">Test TOEFL</option>
-            </select>
-        </div>
-        <br>
-        <div>
-            <input type="submit" value="Sommettre"> 
-        </div>
-        <br>
-    </form>
-        
-    <h3>Dates de début des sessions</h3>
+        <h2>Formulaire d'inscription </h2>
+        <form action="recuperation.php" method="POST">
+            <div>
+                <label for="nom">Nom*:</label>
+                <input type="text" name="nom" value="nom" required>
+            </div>
+            <br>
+            <div>
+                <label for="prenom">prénom*:</label>
+                <input type="text" name="prenom" value="prenom" required>
+            </div>
+            <br>
+            <div>
+                <label for="Date de naissance">Date de Naissance * :</label>
+                <input type="date" id="Date de naissance"  required>
+            </div>
+            <br>
+            <div>
+                <label for="telephone">Téléphone</label>
+                <input type="tel" name="telephone" value="telephone" >
+            </div>
+            <br>
+            <div>
+                <label for="email"><strong>E-mail* :</strong></label>
+                <input type="email" name="email" value="email" required>
+            </div>
+            <br>
+            <div>
+                <label for="Level">Level</label>
+                <select name="objet" value="Level">
+                    <option value="plus de musique">Level 1</option>
+                    <option value="question">Level 2</option>
+                    <option value="question">Level 3</option>
+                    <option value="question">Level 4</option>
+                    <option value="question">Level 5</option>
+                    <option value="question">Test TOEFL</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <input type="submit" value="Sommettre"> 
+            </div>
+            <br>
+        </form>
+        <h3>Dates de début des sessions</h3>
         <P>N.B: Les inscriptions commence à partir de 15 Juillet 2024 au 15 Aout 2024.
             Les cours Commencent à partir de 16 Aout 2024 à 9h00
         </P>
