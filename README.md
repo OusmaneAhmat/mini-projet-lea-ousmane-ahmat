@@ -63,6 +63,9 @@
 ### SUIVI DU PROJET
 - mettre des images au bon endroit
 - faire le style CSS
+- mettre une video d'une personne qui parle le chinous
+- mettre un audio d'une personne qui parle chinois
+- mettre les images dans des bons endroits
 - 
 
 

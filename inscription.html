@@ -3,7 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Insérez ici votre description de la page">
+    <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Outfit:wght@100..900&family=Young+Serif&display=swap" rel="stylesheet">
     <title>inscription</title>
 </head>
 <body>
@@ -14,67 +19,80 @@
                 <nav><a href="inscription.html">INSCRIPTION</a></nav>
                 <nav><a href="contact.html">CONTACT</a></nav>
             </div>
+            
+            <h1>Inscription au Happiness Center</h1>
         </header>
-   
-        <h1>Les Conditions d'inscription</h1>
-        <div class="condition">
-            <ul>
-                <li>Avoir au minimum l'age de 15 ans</li>
-                <li> Avoir une carte d'identité Nationale</li>
-                <li>Payer au moins la moitié de la somme d'inscription</li>
-                <li>Respecter le reglement interieur du centre</li>
-                <li>Engagement à l'apprentissage et à la participation</li>
-                <li>Les mineurs doient etre accompagner par un parent</li>
-            </ul>
-        </div>
-        <h2>Formulaire d'inscription </h2>
-        <form action="recuperation.php" method="POST">
-            <div>
-                <label for="nom">Nom*:</label>
-                <input type="text" name="nom" value="nom" required>
+    
+        <h2>Les Conditions d'inscription</h2>
+        <ol>
+            <li>Avoir au minimum l'âge de 15 ans</li>
+            <li>Avoir une carte d'identité nationale</li>
+            <li>Payer au moins la moitié de la somme d'inscription</li>
+            <li>Respecter le règlement intérieur du centre</li>
+            <li>Engagement à l'apprentissage et à la participation</li>
+            <li>Les mineurs doivent être accompagnés par un parent</li>
+        </ol>
+            <h3>Formulaire d'inscription </h3>
+            <form action="recuperation.php" method="POST">
+                <div>
+                    <label for="nom">Nom*:</label>
+                    <input type="text" name="nom" value="nom" required>
+                </div>
+                <br>
+                <div>
+                    <label for="prenom">prénom*:</label>
+                    <input type="text" name="prenom" value="prenom" required>
+                </div>
+                <br>
+                <div>
+                    <label for="Date de naissance">Date de Naissance * :</label>
+                    <input type="date" id="Date de naissance"  required>
+                </div>
+                <br>
+                <div>
+                    <label for="telephone">Téléphone</label>
+                    <input type="tel" name="telephone" value="telephone" >
+                </div>
+                <br>
+                <div>
+                    <label for="email"><strong>E-mail* :</strong></label>
+                    <input type="email" name="email" value="email" required>
+                </div>
+                <br>
+                <div>
+                    <label for="Level">Level</label>
+                    <select name="objet" value="Level">
+                        <option value="plus de musique">Level 1</option>
+                        <option value="question">Level 2</option>
+                        <option value="question">Level 3</option>
+                        <option value="question">Level 4</option>
+                        <option value="question">Level 5</option>
+                        <option value="question">Test TOEFL</option>
+                    </select>
+                </div>
+                <br>
+                <div>
+                    <input type="submit" value="Sommettre"> 
+                </div>
+                <br>
+            </form>
+            <h3>Dates de début des sessions</h3>
+            <P>N.B: Les inscriptions commence à partir de 15 Juillet 2024 au 15 Aout 2024.
+                Les cours Commencent à partir de 16 Aout 2024 à 9h00
+            </P>
+
+
+
+        <footer>
+            <div class="pied">
+                <span>🗂️Page: Centre culturel</span>
+                <span>🏠N'Djamena, Chad</span>
+                <span>📞+235 66 06 90 06</span>
+                <span>📩aleycentre@gmail.com</span>
+                <span>💻Cours en ligne · Cours en personne</span>
             </div>
-            <br>
-            <div>
-                <label for="prenom">prénom*:</label>
-                <input type="text" name="prenom" value="prenom" required>
-            </div>
-            <br>
-            <div>
-                <label for="Date de naissance">Date de Naissance * :</label>
-                <input type="date" id="Date de naissance"  required>
-            </div>
-            <br>
-            <div>
-                <label for="telephone">Téléphone</label>
-                <input type="tel" name="telephone" value="telephone" >
-            </div>
-            <br>
-            <div>
-                <label for="email"><strong>E-mail* :</strong></label>
-                <input type="email" name="email" value="email" required>
-            </div>
-            <br>
-            <div>
-                <label for="Level">Level</label>
-                <select name="objet" value="Level">
-                    <option value="plus de musique">Level 1</option>
-                    <option value="question">Level 2</option>
-                    <option value="question">Level 3</option>
-                    <option value="question">Level 4</option>
-                    <option value="question">Level 5</option>
-                    <option value="question">Test TOEFL</option>
-                </select>
-            </div>
-            <br>
-            <div>
-                <input type="submit" value="Sommettre"> 
-            </div>
-            <br>
-        </form>
-        <h3>Dates de début des sessions</h3>
-        <P>N.B: Les inscriptions commence à partir de 15 Juillet 2024 au 15 Aout 2024.
-            Les cours Commencent à partir de 16 Aout 2024 à 9h00
-        </P>
+            
+        </footer>
     </main>
 </body>
 </html>
