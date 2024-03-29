@@ -4,7 +4,6 @@ body{
     font-weight: 400;
     font-style: normal;
 }
-
 .navigation {
     background-color: #54F98D; /* Couleur de fond */
     display: flex;
@@ -17,23 +16,20 @@ body{
     font-family: 'Montserrat', sans-serif; /* Police de caractères */
     text-transform: uppercase; /* Mettre en majuscules */
 }
-
 .navigation a {
     text-decoration: none; /* Supprimer le soulignement des liens */
     color: #333; /* Couleur du texte */
     transition: color 0.3s ease; /* Transition fluide de la couleur du texte */
 }
-    .navigation :hover {
+.navigation :hover {
     color: white;
     transform: scale(1.1);
-    }
-
-    h1{
-        text-decoration: underline;
-        text-align: center;
-        margin-top: 15px;
-    }
-
+}
+h1{
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 15px;
+ }
 h2{
     text-decoration: underline;
     margin-bottom: 10px;
@@ -45,15 +41,12 @@ h3{
     margin-top: 20px;
     margin-left: 15px;
 }
-
 ol{
     margin-left: 15px;
 }
-
 form{
     margin-left: 15px;
 }
-
 p{
     margin-bottom: 20px;
 }
@@ -67,24 +60,19 @@ p{
     line-height: 2; /* Hauteur de ligne */
     color: white;
 }
-
 .pied span {
     display: block; /* Afficher chaque élément sur une ligne distincte */
 }
-
-
 form {
     background-color: #fff;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-
 label {
     display: block;
     margin-bottom: 5px;
 }
-
 input[type="text"],
 input[type="email"],
 input[type="tel"],
@@ -97,7 +85,6 @@ textarea {
     border-radius: 5px;
     box-sizing: border-box;
 }
-
 input[type="submit"] {
     background-color: #333;
     color: #fff;
@@ -106,18 +93,13 @@ input[type="submit"] {
     border-radius: 5px;
     cursor: pointer;
 }
-
 input[type="submit"]:hover {
     background-color: #555;
 }
-
-
-
 @media (max-width: 600px) {
     main {
         padding: 10px;
     }
-
     input[type="text"],
     input[type="email"],
     input[type="tel"],
