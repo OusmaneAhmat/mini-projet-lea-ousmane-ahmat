@@ -134,7 +134,7 @@ h5{
     text-align: center; 
     font-size: 16px; 
     line-height: 2; /* Hauteur de ligne */
-    color: white;
+    color: black;
 }
 .pied span {
     display: block; /* Afficher chaque élément sur une ligne distincte */

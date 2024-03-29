@@ -66,6 +66,11 @@
 - mettre une video d'une personne qui parle le chinous
 - mettre un audio d'une personne qui parle chinois
 - mettre les images dans des bons endroits
-- 
+- J'aurai du utilisé les variables en CSS
+
+
+
+
+Questions:
 
 

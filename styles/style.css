@@ -29,17 +29,23 @@ h1{
     text-decoration: underline;
     text-align: center;
     margin-top: 15px;
+    font-size: 20px;
+    margin-bottom: 10px;
  }
 h2{
     text-decoration: underline;
     margin-bottom: 10px;
     margin-left: 15px;
+    font-size: 18px;
+    margin-top: 25px;
 }
 h3{
     text-decoration: underline;
     margin-bottom: 10px;
     margin-top: 20px;
     margin-left: 15px;
+    font-size: 18px;
+    margin-top: 20px;
 }
 ol{
     margin-left: 15px;
@@ -49,6 +55,7 @@ form{
 }
 p{
     margin-bottom: 20px;
+    margin-left: 20px;
 }
 /* Style pour la page contact */
 .pied {
@@ -58,7 +65,7 @@ p{
     text-align: center; 
     font-size: 16px; 
     line-height: 2; /* Hauteur de ligne */
-    color: white;
+    color: black;
 }
 .pied span {
     display: block; /* Afficher chaque élément sur une ligne distincte */
