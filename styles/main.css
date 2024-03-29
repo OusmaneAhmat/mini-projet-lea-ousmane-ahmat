@@ -150,6 +150,10 @@ h5{
 .pied span {
     display: block; /* Afficher chaque élément sur une ligne distincte */
 }
+.pied:hover{
+    text-decoration: underline;
+    color: white;
+}
   /* Styliser les cellules du tableau */
 table {
      border-collapse: collapse; /* Fusionner les bordures des cellules */

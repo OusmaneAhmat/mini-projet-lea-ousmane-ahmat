@@ -83,6 +83,10 @@ p{
 .pied span {
     display: block; /* Afficher chaque élément sur une ligne distincte */
 }
+.pied:hover{
+    text-decoration: underline;
+    color: white;
+}
 
 form {
     background-color: #f9f9f9; /* Une couleur de fond plus douce */
