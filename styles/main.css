@@ -37,6 +37,7 @@ h1 {
     text-decoration: underline;
     text-align: center;
     margin-top: 15px;
+    font-size: 22px;
 }
 table {
     border-collapse: collapse;
@@ -87,6 +88,10 @@ th {
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+.citizen{
+    margin-top: 22px;
+    margin-bottom: 20px;
 }
 .trophe, .sourire, .foreign, .guest {
     display: flex;
