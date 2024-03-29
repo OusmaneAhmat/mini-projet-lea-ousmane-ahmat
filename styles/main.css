@@ -2,6 +2,7 @@ body{
     font-family: "Young Serif", serif;
     font-weight: 400;
     font-style: normal;
+    background-color: #ffffe0;
 }
 .navigation {
     background-color: #54F98D; /* Couleur de fond */
@@ -66,7 +67,7 @@ th {
     /* display: flex; */
      width: 500px;
     height: 380px;
-    border: 5px solid black;
+    border: 5px solid  #D3D3D3;
     border-radius: 3px;
     text-align: center;
     text-align: justify;
@@ -92,6 +93,7 @@ th {
 .citizen{
     margin-top: 22px;
     margin-bottom: 20px;
+    text-decoration: underline;
 }
 .trophe, .sourire, .foreign, .guest {
     display: flex;
@@ -140,6 +142,8 @@ h5{
     font-size: 16px; 
     line-height: 2; /* Hauteur de ligne */
     color: black;
+    margin-left: 149px;
+    margin-right: 98px;
 }
 .pied span {
     display: block; /* Afficher chaque élément sur une ligne distincte */

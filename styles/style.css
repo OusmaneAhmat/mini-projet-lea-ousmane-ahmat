@@ -3,6 +3,7 @@ body{
     font-family: "Young Serif", serif;
     font-weight: 400;
     font-style: normal;
+    background-color: #ffffe0;
 }
 .navigation {
     background-color: #54F98D; /* Couleur de fond */
@@ -27,13 +28,14 @@ body{
 }
 h1{
     text-decoration: underline;
-    text-align: center;
-    margin-top: 15px;
-    margin-bottom: 10px;
+    
+    margin-top: 25px;
+    margin-bottom: 20px;
     font-size: 28px;
     font-family: "Young Serif", serif;
     font-weight: 400;
     font-style: normal;
+    text-align: center;
  }
 h2{
     text-decoration: underline;
@@ -41,6 +43,7 @@ h2{
     margin-left: 15px;
     font-size: 18px;
     margin-top: 25px;
+    text-align: center;
 }
 h3{
     text-decoration: underline;
@@ -49,9 +52,11 @@ h3{
     margin-left: 15px;
     font-size: 18px;
     margin-top: 20px;
+    text-align: center;
 }
 ol{
     margin-left: 15px;
+    text-align: center;
 }
 form{
     margin-left: 15px;
@@ -59,6 +64,8 @@ form{
 p{
     margin-bottom: 20px;
     margin-left: 20px;
+    text-align: center;
+
 }
 /* Style pour la page contact */
 .pied {
@@ -69,15 +76,21 @@ p{
     font-size: 16px; 
     line-height: 2; /* Hauteur de ligne */
     color: black;
+    margin-top: 20px;
+    margin-left: 330px;
+    margin-right: 330px;
 }
 .pied span {
     display: block; /* Afficher chaque élément sur une ligne distincte */
 }
-form {
+/* form {
     background-color: #fff;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-right: 25px;
+    
+   
 }
 label {
     display: block;
@@ -117,4 +130,49 @@ input[type="submit"]:hover {
     textarea {
         width: 100%;
     }
+} */
+form {
+    background-color: #f9f9f9; /* Une couleur de fond plus douce */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 0 auto; /* Pour centrer le formulaire horizontalement */
+    max-width: 800px; /* Limiter la largeur du formulaire pour un meilleur rendu */
+    border-radius: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px; /* Légèrement réduit la marge entre les étiquettes */
+    color: #333; /* Couleur de texte légèrement plus foncée */
+    font-size: 16px; /* Taille de police légèrement plus grande */
+    font-weight: bold; /* Ajoute un peu de poids à la police */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select,
+textarea {
+    width: calc(100% - 22px); /* Ajustement pour la largeur et l'épaisseur de la bordure */
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #ff69b4; /* Une couleur rose vif qui pourrait être attrayante */
+    color: #fff;
+    padding: 12px 20px; /* Légèrement plus grand pour un aspect plus saisissant */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px; /* Taille de police légèrement plus grande */
+    font-weight: bold; /* Ajoute un peu de poids à la police */
+}
+
+input[type="submit"]:hover {
+    background-color: #ff4f97; /* Couleur rose légèrement plus foncée au survol */
 }
