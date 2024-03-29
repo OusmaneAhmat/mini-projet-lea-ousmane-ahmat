@@ -83,54 +83,7 @@ p{
 .pied span {
     display: block; /* Afficher chaque élément sur une ligne distincte */
 }
-/* form {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-right: 25px;
-    
-   
-}
-label {
-    display: block;
-    margin-bottom: 5px;
-}
-input[type="text"],
-input[type="email"],
-input[type="tel"],
-select,
-textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-sizing: border-box;
-}
-input[type="submit"] {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-input[type="submit"]:hover {
-    background-color: #555;
-}
-@media (max-width: 600px) {
-    main {
-        padding: 10px;
-    }
-    input[type="text"],
-    input[type="email"],
-    input[type="tel"],
-    select,
-    textarea {
-        width: 100%;
-    }
-} */
+
 form {
     background-color: #f9f9f9; /* Une couleur de fond plus douce */
     padding: 20px;
